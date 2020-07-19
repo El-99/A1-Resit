@@ -18,7 +18,7 @@ li{
     float: left;                                                  /*This places the element on the let of the container*/  
    
     border-right: dotted;                                         /*This sets the right border of the element to a dotted line*/
-    padding-right: 0 25px;
+    padding-right: 25px;                                          /*This sets the right padding of the elemtents to 25 pixels*/
     flex: 1 1 0;
     }
       
@@ -95,8 +95,8 @@ article{
     grid-template-columns: 2fr 2fr 2fr;                            /*2 fractions is the space given in the grid container*/
     margin:0 auto;                                                 /*The margin will be 0*/
     grid-column-gap: 20px;                                         /*This sets the gaps in columns in the grid to 20 pixels*/
-    display: grid;                                                  
-    padding: 5px;
+    display: grid;                                                 /*This sets the display of the article to a grid format*/                                               
+    padding: 5px;                                                  /*The padding space is set to 5 pixels*/
 
 
 }

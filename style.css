@@ -1,40 +1,41 @@
 nav ul{
-    list-style-type: none;
-    margin: 0px;
-    display: flex;
-    flex: 1 1 0;
+    list-style-type: none;                                       /*This diplays the navigation bar in a non-list format*/
+    margin: 0px;                                                 /*The margin will be 0*/   
+    display: flex;                                               /*The flex layout is used*/
+    flex: 1 1 0;                                                 
   
-    background-color: rgb(223, 192, 192);
+    background-color: rgb(223, 192, 192);                       /*The background color of the navigation is set to pink*/ 
     color:rgb(226, 219, 226);
-    overflow: auto;
-    justify-content: right;
-    padding: 1em;
-    text-align: center;
-    padding :1em;
-} /*Changes the the navigation bar to an unordered list*/
+    overflow: auto;                                               /*This sets what should happen when the content overflows in the element's box*/
+    justify-content: right;                                       /*Aligns the flex items to the right*/
+    padding: 1em;                                                 /*This sets the padding space to 1em*/
+    text-align: center;                                           /*Aligns text to the center*/
+
+}                                                                 /*Changes the the navigation bar to an unordered list*/
 
 li{
-    height: 20px;
-    float: left;
+    height: 20px;                                                 /*This sets the height of the element to 20 pixels*/                                         
+    float: left;                                                  /*This places the element on the let of the container*/  
    
-    border-right: none;
+    border-right: dotted;                                         /*This sets the right border of the element to a dotted line*/
     padding-right: 0 25px;
     flex: 1 1 0;
     }
       
     body { 
-        font-size: 20px;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 500;
-        text-align: center;
+        font-size: 20px;                                            /*This sets the font size in the body to 20 pixels*/
+        font-family: 'Raleway', sans-serif;                         /*This sets the font to 'Raleway', if it can't find it, it will display 'sans-serif' instead*/
+        font-weight: 500;                                           /*This property sets how thick or thin the font is displayed, here it is set at 500*/
+        text-align: center;                                         /*This aligns the text in this element to the center*/
+        margin:40px;                                                /*This sets the margin to 40 pixels*/
        
     }
 
-body {
-    margin:40px;
-}
+/*body {
+   
+}*/
 
-.wrapper {
+/*.wrapper {
     display:grid;
     grid-template-columns: 100px 100px 100px;
     grid-gap:10px;
@@ -56,7 +57,7 @@ body {
     grid-row-start: 1;
     grid-row-end: 2;
     
-}
+}       
 .b{
     grid-column-start: 2;
     grid-column-end: 3;
@@ -87,14 +88,14 @@ body {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
-}
+}*/
 article{ 
-    background-color:rgb(223, 192, 192); 
-    color:black ;
-    grid-template-columns: 2fr 2fr 2fr;
-    margin:0 auto;
-    grid-column-gap: 20px;
-    display: grid;
+    background-color:rgb(223, 192, 192);                         /*This sets the background color of the article element to cream*/
+    color:white ;                                                /*The font color within the article is set to black*/
+    grid-template-columns: 2fr 2fr 2fr;                            /*2 fractions is the space given in the grid container*/
+    margin:0 auto;                                                 /*The margin will be 0*/
+    grid-column-gap: 20px;                                         /*This sets the gaps in columns in the grid to 20 pixels*/
+    display: grid;                                                  
     padding: 5px;
 
 
